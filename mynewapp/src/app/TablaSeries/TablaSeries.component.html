@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="tabla-container">
+      <table class="table" id="series">
+          <thead>
+              <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Canal</th>
+                  <th scope="col">Temporadas</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let serie of series; let i = index">
+                  <th scope="row">{{i + 1}}</th>
+                  <td>{{serie.name}}</td>
+                  <td>{{serie.channel}}</td>
+                  <td>{{serie.seasons}}</td>
+              </tr>
+      </table>
+      <p>La cantidad promedio de temporadas es: {{average}}</p>
+  </div>
+  
+</div>

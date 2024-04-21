@@ -1,0 +1,24 @@
+.contenedor#cabecera {
+    background-color: rgb(159, 213, 209);
+    width: 100vw;
+    /* Utiliza el 100% del ancho de la ventana */
+    height: 15vh;
+    /* Utiliza el 15% de la altura de la ventana */
+    display: flex;
+    /* Utiliza un modelo de caja flexible */
+    justify-content: left;
+    /* Alinea el contenido hacia la izquierda */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    padding-left: 10vw;
+    /* Añade un margen de 20px al borde izquierdo */
+}
+
+.logo {
+    width: 90px;
+    /* Utiliza el 10% del ancho de la ventana */
+    height: 90px;
+    /* Utiliza el 10% de la altura de la ventana */
+    margin-right: 40px;
+    /* Añade un margen de 10px al borde derecho */
+}
